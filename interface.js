@@ -1,7 +1,7 @@
 function resolvePrecept(interfaceName) {
     var interfaceName = interfaceName;
     return function curry(value) {
-        /*      throw new Error(interfaceName + ' requires an implementation for ...');     */
+
         console.warn('%s requires an implementation for ...', interfaceName);
         return value;
     };
